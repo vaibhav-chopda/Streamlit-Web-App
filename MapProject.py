@@ -18,7 +18,7 @@ st.set_page_config(layout="wide", page_icon=":location:", page_title="Flood Risk
 def set_proxy():
     #    user='user_example', passwd='pass_example', 
     #    address='address_example', port=int('port_example'))
-    proxy_addr = '165.225.81.247:80'
+    proxy_addr = 'X'
 
     os.environ['http_proxy'] = proxy_addr
     os.environ['https_proxy'] = proxy_addr
@@ -93,7 +93,7 @@ def calculate_risk(gdf,input_address):
 gdf_raw  = read_data()
 gdf  = gdf_raw
 #Get Proxy to get address
-set_proxy()
+#set_proxy()
 
 
 ############################################################################  SIDEBAR  ############################################################################
