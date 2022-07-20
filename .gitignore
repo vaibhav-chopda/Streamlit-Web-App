@@ -1,2 +1,4 @@
 .ipynb*
 /NOTEBOOK
+.vscode
+*.pyc
