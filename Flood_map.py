@@ -112,15 +112,6 @@ with st.form(key="my_form"):
                     layer_name = 'Risk Area',
                     color = 'orange',
                     centroids = True,show = True)
-        '''
-        hist_df['flood_source'] = 'grey'
-        add_layer(
-                    hist_df[:100],
-                    map_sby,
-                    pop_name = 'layer',
-                    layer_name = 'Historic Flood Area',
-                    color = 'grey',
-                    centroids = False)'''
         
         render_asset(input_address,map_sby,c2)
     submit_button = st.form_submit_button(label="✨ Launch!")
