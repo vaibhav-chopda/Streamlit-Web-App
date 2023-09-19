@@ -25,16 +25,6 @@ The **Flood Risk Assessment App** is a web-based application developed to assess
 - Access historical flood data to understand past flood events in your area.
 - Explore flood frequency and severity over time.
 
-### 4. Customizable Alerts
-
-- Set up custom alerts for your area to receive notifications about changing flood risk conditions.
-- Stay informed and take proactive measures during flood events.
-
-### 5. Educational Resources
-
-- Access educational resources and information about flood prevention and preparedness.
-- Learn how to protect your property and loved ones from flooding.
-
 ## Installation
 
 To run the Flood Risk Assessment App locally, follow these steps:
@@ -42,16 +32,10 @@ To run the Flood Risk Assessment App locally, follow these steps:
 1. Clone the repository to your local machine:
 
    ```
-   git clone https://github.com/yourusername/flood-risk-assessment-app.git
+   git clone https://github.com/vaibhav-chopda/Streamlit-Web-App.git
    ```
 
-2. Navigate to the app's directory:
-
-   ```
-   cd flood-risk-assessment-app
-   ```
-
-3. Install the required dependencies:
+2. Install the required dependencies:
 
    ```
    pip install -r requirements.txt
@@ -60,7 +44,7 @@ To run the Flood Risk Assessment App locally, follow these steps:
 4. Run the app:
 
    ```
-   streamlit run app.py
+   streamlit run MapProject.py
    ```
 
 The app will open in your web browser, allowing you to interact with it locally.
@@ -73,19 +57,6 @@ The Flood Risk Assessment App relies on data from various sources, including:
 - Environment Agency for river data and flood risk assessments.
 - Historical flood records from government agencies.
 
-## Contributing
-
-We welcome contributions from the community to improve and enhance this app. If you would like to contribute, please follow these guidelines:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix: `git checkout -b feature/your-feature`.
-3. Make your changes and commit them with descriptive commit messages.
-4. Push your changes to your fork: `git push origin feature/your-feature`.
-5. Create a pull request, explaining the changes and their purpose.
-
-## Feedback and Support
-
-If you encounter any issues, have suggestions for improvements, or need assistance with using the app, please feel free to [open an issue](https://github.com/yourusername/flood-risk-assessment-app/issues) on GitHub.
 
 ## Disclaimer
 
