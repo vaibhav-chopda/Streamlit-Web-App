@@ -1,6 +1,6 @@
 # Flood Risk Assessment App for the UK
 
-![Flood Risk Assessment App](app-flood-risk.png)
+![Flood Risk Assessment App](app-flood-risk.PNG)
 
 ## Overview
 
